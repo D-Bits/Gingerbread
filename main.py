@@ -16,6 +16,9 @@ u_options = {
 
 if __name__ == "__main__":
     
+    print()
+    print("Welcome to Gingerbread!\n")
+
     proj_dir = input("Enter the full path to directory where you want your project to be stored (Ex: /home/documents/projects): ")
     chdir(proj_dir)
 
