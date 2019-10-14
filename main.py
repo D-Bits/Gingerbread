@@ -46,3 +46,5 @@ if __name__ == "__main__":
         run(['cookiecutter', php_cc])
     else:
         input('Invalid input. Press enter to exit.')
+    
+    input('Project generation completed. Press enter to exit.')
