@@ -1,6 +1,6 @@
 from subprocess import run
 from os import chdir
-from cutters import data_eng_cc, php_cc, django_cc
+from cutters import data_eng_cc, php_cc, django_cc, asp_cc
 
 
 """ Store the users options for project 
@@ -9,7 +9,8 @@ u_options = {
     1: 'Cookiecutter from a GitHub repo of your choosing',
     2: 'Python3 Data Engineering Project',
     3: 'Django & PostgreSQL Project',
-    4: 'PHP Website.'
+    4: 'ASP.NET Core MVC Site.',
+    5: 'PHP Website.'
 }
 
 
@@ -37,4 +38,8 @@ if __name__ == "__main__":
     elif u_choice == 3:
         run(['cookiecutter', django_cc])
     elif u_choice == 4: 
+        run(['cookiecutter', asp_cc])
+    elif u_choice == 5:
         run(['cookiecutter', php_cc])
+    else:
+        input('Invalid input. Press enter to exit.')
