@@ -11,3 +11,5 @@ php_cc  = 'https://github.com/D-Bits/PHP-Cookiecutter'
 django_cc = 'https://github.com/D-Bits/Django-Cookiecutter'
 # ASP.NET Core MVC template
 asp_cc = 'https://github.com/D-Bits/ASP-MVC-Cookiecutter'
+# Flask template 
+flask_cc = 'https://github.com/D-Bits/Flask-Cookiecutter'

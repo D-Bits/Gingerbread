@@ -1,6 +1,6 @@
 from subprocess import run
 from os import chdir
-from cutters import data_eng_cc, php_cc, django_cc, asp_cc
+from cutters import data_eng_cc, php_cc, django_cc, asp_cc, flask_cc
 
 
 """ Store the users options for project 
@@ -10,14 +10,15 @@ u_options = {
     2: 'Python3 Data Engineering Project',
     3: 'Django & PostgreSQL Project',
     4: 'ASP.NET Core MVC Site.',
-    5: 'PHP Website.'
+    5: 'PHP Website.',
+    6: 'Flask Web Application.'
 }
 
 
 if __name__ == "__main__":
     
     print()
-    print("Welcome to Gingerbread!\n")
+    print("Welcome to Gingerbread! A CLI-based front-end for Cookiecutter.\n")
 
     proj_dir = input("Enter the full path to directory where you want your project to be stored (Ex: /home/documents/projects): ")
     chdir(proj_dir)
@@ -44,6 +45,8 @@ if __name__ == "__main__":
         run(['cookiecutter', asp_cc])
     elif u_choice == 5:
         run(['cookiecutter', php_cc])
+    elif u_choice == 6:
+        run(['cookiecutter', flask_cc])
     else:
         input('Invalid input. Press enter to exit.')
     
