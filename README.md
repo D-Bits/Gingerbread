@@ -7,6 +7,12 @@ Gingerbread is a CLI-based front-end to the popular Python library Cookiecutter.
 
 * Either run the appropriate executable in the *dist* directory, or run *main.py*.
 
+#### Creating Executables
+
+* Install PyInstaller (globally, not inside a virtualenv) with *pip install pyinstaller*.
+* Clone this repoistory
+* CD into the repo, and run the *deloy.py* file.
+
 ## Future Goals
 
 * Create an executable.
@@ -15,4 +21,4 @@ Gingerbread is a CLI-based front-end to the popular Python library Cookiecutter.
 
 # Executable SH256 Hash:
 
-* Windows: 9EC444AA8E50519C15F992B55CBA415B755B189BC9826BF10A5C9DFEDA5C4000
+* Windows: A90BF39CBF9987E63C0BEF43AB3D5614BEF838E5F56FE178E6AF4F070AAB67CC
