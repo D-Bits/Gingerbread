@@ -13,3 +13,5 @@ django_cc = 'https://github.com/D-Bits/Django-Cookiecutter'
 asp_cc = 'https://github.com/D-Bits/ASP-MVC-Cookiecutter'
 # Flask template 
 flask_cc = 'https://github.com/D-Bits/Flask-Cookiecutter'
+
+static_cc = 'https://github.com/D-Bits/Static-Site-Cookiecutter'
