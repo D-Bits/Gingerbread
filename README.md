@@ -15,10 +15,8 @@ Gingerbread is a CLI-based front-end to the popular Python library Cookiecutter.
 
 ## Future Goals
 
-* Create an executable.
-* Add Flask projects support
-* Add .NET Core projects support.
+* Improve project templates
 
 # Executable SHA256 Hash:
 
-* Windows: A124598529018A46AD8DB498A7DE0A8F3DF39A26F92059E5C51AA85D157E4860
+* Windows: DFDC1AF7470516B46A5939A60EBC5352240F1544035313CF6C7C40E5CC858589
