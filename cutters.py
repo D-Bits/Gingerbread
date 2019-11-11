@@ -15,3 +15,5 @@ asp_cc = 'https://github.com/D-Bits/ASP-MVC-Cookiecutter'
 flask_cc = 'https://github.com/D-Bits/Flask-Cookiecutter'
 
 static_cc = 'https://github.com/D-Bits/Static-Site-Cookiecutter'
+
+django_rest_and_vue = 'https://github.com/D-Bits/Django-REST-VueJs-Cookiecutter'
